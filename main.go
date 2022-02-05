@@ -31,5 +31,5 @@ func main() {
 	http.HandleFunc("/", main)
 	http.HandleFunc("/joekes", joemama)
 	http.HandleFunc("/joekes/api", apifun)
-	log.Fatal(http.ListenAndServe(":80", nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
